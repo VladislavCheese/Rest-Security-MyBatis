@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/university3
+    username: postgres
+    password: 123456
+
+  liquibase:
+    change-log: classpath:db/changelog/changelog-master.xml
+    enabled: true
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+#logging:
+#  file:
+#    name: logs/dev_app.log
+#  level:
+#    ROOT: ERROR
+#    com.example.demo.service.impl: ERROR
+#    org.mybatis: TRACE
+#    com.example.demo.dao: TRACE
