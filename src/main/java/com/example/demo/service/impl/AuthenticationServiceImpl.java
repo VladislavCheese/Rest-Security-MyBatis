@@ -80,20 +80,4 @@ public class AuthenticationServiceImpl implements AuthenticationService {
         return account;
     }
 
-//    private User createAccount(RegistrationRequestDTO registrationRequestDTO) {
-//        User account = new User();
-//        Set<Role> roles = registrationRequestDTO.getRoles();
-//
-//        account.setPassword(passwordEncoder.encode(registrationRequestDTO.getPassword()));
-//        account.setUsername(registrationRequestDTO.getUsername());
-//        account.setRoles(roles);
-//
-//        userMapper.addUser(account);
-//
-//        for (Role role : roles) {
-//            userMapper.addRoleToUser(account.getUserId(), role.getRoleId());
-//        }
-//
-//        return account;
-//    }
 }
