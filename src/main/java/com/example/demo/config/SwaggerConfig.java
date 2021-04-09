@@ -17,10 +17,10 @@ public class SwaggerConfig {
     public OpenAPI customOpenApi() {
         return new OpenAPI().info(new Info()
                 .title("Students and Teachers API")
-                .version(("1.0.1"))
+                .version(("v1.0.1"))
                 .contact(new Contact()
-                        .email("davlk@mail.ru")
-                        .name("Davletova Kseniya")
+                        .email("89851502703l@gmail.com")
+                        .name("VladislavCh")
                 ));
     }
 }

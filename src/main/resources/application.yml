@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/university3
+    url: jdbc:postgresql://localhost:5432/work_db
     username: postgres
-    password: 123456
+    password: 151828ll
 
   liquibase:
     change-log: classpath:db/changelog/changelog-master.xml

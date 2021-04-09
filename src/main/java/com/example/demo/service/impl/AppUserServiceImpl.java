@@ -1,6 +1,5 @@
 package com.example.demo.service.impl;
 
-import com.example.demo.auth.RegistrationRequestDTO;
 import com.example.demo.auth.Role;
 import com.example.demo.auth.User;
 import com.example.demo.dao.UserMapper;
